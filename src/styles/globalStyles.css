@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?=&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+    
+    /*GRAY SCALE COLORS*/
+
+    --gray-scale-100: rgb(0, 0, 0);
+    --gray-scale-200: rgb(30, 30, 30);
+    --gray-scale-400: rgb(101, 101, 101);
+    --gray-scale-500: rgb(142, 142, 142);
+    --gray-scale-600: rgb(186, 186, 186);
+    --gray-scale-800: rgb(228, 228, 228);
+    --gray-scale-900: rgb(255, 255, 255);
+    
+    /*BRAND PALLET COLORS*/
+
+    --brand-color-1: rgb(255, 0, 0);
+    --brand-color-2: rgb(255, 255, 0);
+    --brand-color-3: rgb(0, 0, 255);
+    --brand-color-4: rgb(255, 0, 123);
+    --brand-color-5: rgb(255, 166, 0);
+    --brand-color-6: rgb(0, 255, 0);
+    --brand-color-7: rgb(41, 8, 101);
+
+    /*FONT SETTINGS*/
+
+        /*TEXT SETTINGS*/
+
+        --font-size-text-1: 1.2em;
+        --font-weight-text-1: 400;
+        --line-height-text-1: 35px;
+
+        
+        --font-size-text-2: 1.1em;
+        --font-weight-text-2: 500;
+        --line-height-text-2: 30px;
+
+        --font-size-text-3: 1em;
+        --font-weight-text-3: 700;
+        --line-height-text-3: 25px;
+
+        /*TITLE SETTINGS*/
+
+        --font-size-title-1: 2.2em;
+        --font-weight-title-1: 700;
+        --line-height-title-1: 50px;
+        
+        --font-size-title-2: 1.8em;
+        --font-weight-title-2: 700;
+        --line-height-title-2: 40px;
+
+        --font-size-title-3: 1.6em;
+        --font-weight-title-3: 600;
+        --line-height-title-3: 30px;
+}
+
+*{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
